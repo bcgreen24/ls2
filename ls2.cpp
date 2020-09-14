@@ -67,7 +67,6 @@ int main(int argc, char **argv)
         	t[strcspn(t, "\r\n")] = '\0';
 
         	file_info f_info;
-
         	f_info.owner = to_string(sb.st_uid);
         	f_info.filename = de->d_name;
         	f_info.size = sb.st_size;
@@ -98,7 +97,7 @@ int main(int argc, char **argv)
     	}
     }
     closedir(dr);
-    cout << file_entries.size() << " files listed.";
+    cout << file_entries.size() << " files listed." << endl;
     return 0;
 }
 
