@@ -1,0 +1,10 @@
+Package: ls2
+Version: 1.0
+Section: custom
+Priority: optional
+Architecture: all
+Essential: no
+Installed-Size: 1024
+Maintainer: Bryan Green
+Description: replacement for ls command
+
