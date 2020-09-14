@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/bcgreen/eclipse-workspace/ls2/build/default",
+  "command": "/usr/bin/c++    -O3 -DNDEBUG   -o CMakeFiles/ls2.dir/ls2.cpp.o -c /home/bcgreen/eclipse-workspace/ls2/ls2.cpp",
+  "file": "/home/bcgreen/eclipse-workspace/ls2/ls2.cpp"
+}
+]
